@@ -98,7 +98,7 @@ a:hover {
     }
     
     .intro img {
-      width: 150px;   /* Set or keep the desired width */
+      width: 200px;   /* Set or keep the desired width */
       height: auto;   /* Maintain aspect ratio */
       border-radius: 30%; /* Keep the image circular */
       /* display: block; Ensures that the image is properly aligned */
@@ -109,6 +109,7 @@ a:hover {
   .intro .unit-80 {
       display: block; /* Ensures block-level element layout */
       overflow: hidden; /* Prevents text from wrapping around floated elements */
+      margin: 40px;
   }
   
 
@@ -122,11 +123,12 @@ a:hover {
       top: -150px;
       font-size: 270px;
       z-index: -1;
-      color: #f4f4f4;
+      color: #e8e8e8;
     }
     
     .intro h1 span {
       font-size: 47px;
+      
     }
 
     
@@ -154,8 +156,8 @@ a:hover {
 
 .skills .skill-list {
   margin-left: 0px; }
-  .skills .skill-list li:first-child {
-    font-size: 0.9375em;
+  .skills .skill-list {
+    font-size: 0.975em;
     color: #8c8c8c; }
     .skills .container .grid {
       display: grid;
@@ -197,3 +199,28 @@ footer {
       color: #999999; 
     }
 
+
+    .btn {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 0.8;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background-color: #b0b8c2;
+      color: #fff;
+      border-color: #007bff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+      background-color: #748eaa;
+      border-color: #0056b3;
+  }
+  
