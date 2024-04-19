@@ -31,7 +31,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-
+    
   footer {
     text-align: center; } }
 .typed-cursor {
@@ -72,12 +72,12 @@ a:hover {
   100% {
     opacity: 1; } }
 .main-nav {
-  background: #f4f4f4;
+  background: #7bc0ce;
   padding-top: 23px; }
   .main-nav nav ul li a {
-    color: #a7a7a7; }
+    color: #ffffff; }
   .main-nav nav ul li.active a {
-    color: #4d4d4d; }
+    color: #010000; }
 
 .section.second {
   margin-bottom: 90px; }
@@ -212,15 +212,20 @@ footer {
       cursor: pointer;
       border: 1px solid transparent;
       border-radius: 4px;
-      background-color: #b0b8c2;
+      background-color: #7bc0ce;
       color: #fff;
-      border-color: #007bff;
+      border-color: #000000;
       text-decoration: none;
       transition: all 0.3s ease;
   }
   
   .btn:hover {
-      background-color: #748eaa;
-      border-color: #ffffff;
+      background-color: white;
+      color: black;
+      border-color: #000000;
   }
   
+  .intro-profile {
+    text-align: center;
+    
+}
