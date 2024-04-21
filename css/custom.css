@@ -32,6 +32,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto; }
     
+    
   footer {
     text-align: center; } }
 .typed-cursor {
@@ -73,10 +74,13 @@ a:hover {
     opacity: 1; } }
 .main-nav {
   background: #7bc0ce;
+  background: #7bc0ce;
   padding-top: 23px; }
   .main-nav nav ul li a {
     color: #ffffff; }
+    color: #ffffff; }
   .main-nav nav ul li.active a {
+    color: #010000; }
     color: #010000; }
 
 .section.second {
